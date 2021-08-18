@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif; 
+}
+.hng-logo {
+    padding: 30px 0;
+}
+#resume {
+    margin: 0 60px;
+}
+#section-one, #section-two, #section-three, #links {
+    padding-bottom: 60px;
+}
+.one2 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.name {
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(5, 149, 206);
+}
+.stack {
+    color: rgb(5, 149, 206);
+}
+.gic {
+    font-weight: 500;
+    color: rgb(5, 149, 206);
+    padding-bottom: 10px; 
+}
+
+.one3 {
+    color: rgb(5, 149, 206);
+}
+.contact {
+    padding-top: 5px;
+}
+.paragraph1 {
+    width: 80%;
+    color: rgb(5, 149, 206);
+    padding-bottom: 30px;
+    line-height: 1.5rem;
+    padding-left: 17px;
+}
+.paragraph0 {
+    width: 80%;
+    color: rgb(5, 149, 206);
+    padding-bottom: 30px;
+    line-height: 1.5rem;
+}
+.listt {
+    color: rgb(5, 149, 206);
+    padding-bottom: 30px;
+    padding-left: 17px;
+}
+.list {
+    color: rgb(5, 149, 206);
+    padding-bottom: 30px; 
+}
+.paragraph2 {
+    text-decoration: underline;
+    color: rgb(5, 149, 206);
+}
+.esu {
+    font-size: 1.2em;
+    color: rgb(5, 149, 206);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.link a {
+    display: inline-block;
+    padding: 0 20px;
+    color: rgb(5, 149, 206);
+}
+
+@media screen and (min-width:576px) {
+    #section-one, #section-two, #section-three {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        max-width: 92vw;
+    }
+    #links {
+        text-align: center;
+    }
+    .hng-logo {
+        text-align: right;
+    }
+}
+
+
